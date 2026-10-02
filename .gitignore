@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build artifacts & outputs
+target/
+build/
+dist/
+dist-ssr/
+out/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+gradle_out.txt
+gradle_boot_out.txt
+build_error.log
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Environment variables & credentials
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Docker & local database volume data
+postgres_data/
+docker-data/
+*.data
+*.pid
+*.seed
